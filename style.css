@@ -1,0 +1,14 @@
+body {
+font-family: 'Nunito', sans-serif;
+color: white;
+background-color: rgb(20,20,20)
+}
+.center {
+  text-align: center;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: rgb(30,30,30);
+  border: 0px;
+  color: white;
+  cursor: pointer;
+}
