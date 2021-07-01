@@ -4,6 +4,7 @@ const base = "https://www.youtube-nocookie.com/embed/";
 const end = "?wmode=transparent&amp;iv_load_policy=3&amp;autoplay=0&amp;html5=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=0&amp;theme=light";
 const strip_timestamps = /\?t=\d+/;
 var submit = document.getElementById('submit');
+var download = document.getElementById('download');
 var url = document.getElementById('url');
 var video_holder;
 var video_holder_holder = document.getElementById('video-holder-holder');
