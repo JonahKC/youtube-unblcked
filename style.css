@@ -1,7 +1,9 @@
-body {
-font-family: 'Nunito', sans-serif;
-color: white;
-background-color: rgb(20,20,20)
+html {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  margin-left: 25px;
+  margin-right: 25px;
 }
 hr {
   background-color: rgb(30,30,30);
@@ -10,6 +12,10 @@ hr {
   margin-bottom: 1rem;
   width: 50%;
   height: 2px;
+}
+iframe {
+  width: 560px;
+  height: 315px;
 }
 .center {
   text-align: center;
@@ -49,4 +55,23 @@ input {
 button:active {
 	background-color: rgb(25, 25, 25);
 	color: rgb(224, 224, 224);
+}
+.space {
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 30px;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 1.4rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  iframe {
+    width: 400px;
+    height: 225px;
+  }
 }
