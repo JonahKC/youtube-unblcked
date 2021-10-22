@@ -51,6 +51,10 @@ button {
 }
 input {
 	height: 1.2rem;
+	outline: none;
+}
+input:focus, textarea:focus, select:focus{
+	outline: none;
 }
 button:active {
 	background-color: rgb(25, 25, 25);
