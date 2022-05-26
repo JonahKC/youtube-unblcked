@@ -1,5 +1,5 @@
-### Use to get around blocked YouTube videos ;)
+# YouTube logo link
 
-Find the finished product [here](https://yt.jcwyt.com).
+A chrome extension that lets you change the link of the YouTube logo.
 
-Credit to DuckDuckGo for some of the `<iframe>` code
+Available on the [Chrome Web Store](https://chrome.google.com/webstore/detail/youtube-logo-link/kjaidkbedipdlfdecahomknafpcffoeo).
